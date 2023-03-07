@@ -1,29 +1,29 @@
 # passwd-generator
 generator of password in ruby make with love
 
+## Requirements
+
+* Ruby 2.0.0 or higher
+
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your terminal:
 
-```ruby
-gem 'passwd-generator'
-```
-
-And then execute:
- 
 ```bash
-bundle install 
-```
-
-Or install it yourself as:
-
-```bash    
-gem install passwd-generator
+#Creation of the directory where the script will be stored:
+mkdir ~/.scripts
+cd ~/.scripts
+#Download the script:
+wget https://github.com/theoesb/passwd-generator/blob/27d7498b33f04b7f9317fffdce73ed1a1facbbea/pass_gen.rb
+#Give the script execution permissions:
+chmod +x pass_gen.rb
+#Add the script to the path:
+echo "export PATH=$PATH:~/.scripts" >> ~/.bashrc
 ```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at 
+Bug reports and pull requests are welcome on GitHub <a href="https://github.com/theoesb/passwd-generator.git">here</a>.
 
 ## License
 
