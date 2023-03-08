@@ -19,6 +19,14 @@ wget https://github.com/theoesb/passwd-generator/blob/27d7498b33f04b7f9317fffdce
 chmod +x pass_gen.rb
 #Add the script to the path:
 echo "export PATH=$PATH:~/.scripts" >> ~/.bashrc
+#or
+echo "export PATH=$PATH:~/.scripts" >> ~/.zshrc
+#Reload the bashrc file:
+source ~/.bashrc
+#or
+source ~/.zshrc
+#Execute from anywhere from the terminal:
+pass_gen.rb
 ```
 
 ## Contributing
