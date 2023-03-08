@@ -8,24 +8,32 @@ generator of password in ruby make with love
 ## Installation
 
 Add this line to your terminal:
-
+#### Creation of the directory where the script will be stored:
 ```bash
-#Creation of the directory where the script will be stored:
 mkdir ~/.scripts
 cd ~/.scripts
-#Download the script:
+```
+#### Download the script:
+```bash
 wget https://github.com/theoesb/passwd-generator/blob/27d7498b33f04b7f9317fffdce73ed1a1facbbea/pass_gen.rb
-#Give the script execution permissions:
+```
+#### Give the script execution permissions:
+```bash
 chmod +x pass_gen.rb
-#Add the script to the path:
+```
+#### Add the script to the path:
+##### For bash:
+```bash
 echo "export PATH=$PATH:~/.scripts" >> ~/.bashrc
-#or
-echo "export PATH=$PATH:~/.scripts" >> ~/.zshrc
-#Reload the bashrc file:
 source ~/.bashrc
-#or
+```
+##### For zsh:
+```bash
+echo "export PATH=$PATH:~/.scripts" >> ~/.zshrc
 source ~/.zshrc
-#Execute from anywhere from the terminal:
+```
+##### Execute from anywhere from the terminal:
+```bash
 pass_gen.rb
 ```
 
